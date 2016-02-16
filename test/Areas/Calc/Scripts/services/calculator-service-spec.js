@@ -2,7 +2,7 @@ describe('Calculator ', function() {
     'use strict';
     var calcService;
     beforeEach(function () {
-        module('myApp');
+        module('calculatorApp');
         inject(function (_CalculatorService_) {
             calcService = _CalculatorService_;
         });

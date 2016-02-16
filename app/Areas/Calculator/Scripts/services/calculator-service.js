@@ -1,7 +1,7 @@
 (function () {
     'use strict';
 
-    angular.module('myApp', []).service('CalculatorService', function () {
+    angular.module('calculatorApp').service('CalculatorService', function () {
         return {
             add: function (x, y) {
                 return x + y;
